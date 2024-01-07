@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+.profile-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 370px;
+    width: 100%;
+    background:#fff ;
+    border-radius: 25px;
+    padding: 26px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: blue;
+    padding: 3px;
+    margin-bottom: 3px;
+}
+
+.image .profile-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.text-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.job{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.profile-card .media-buttons{
+    display: flex;
+    align-items: center;
+    margin: 50px;
+    margin-top: 20px;
+}
+
+.link{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    border-radius: 50%;
+    font-size: 15px;
+    padding: 3px;
+    margin: 2px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.button{
+    color: #fff;
+    font-size: 15px ;
+    font-weight: 500;
+    margin: 0 8px;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: #4070f4;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.buttons .button:hover{
+    background-color: #0e4bf1;   
+}
+
+.analytics{
+    display: inline-flex;
+    align-items: center;
+    margin-top: 20px;
+
+
+}
+
+.data{
+    display: flex;
+    align-items: center;
+    border-right: 1px solid black;
+    margin: 3px 3px;
+    padding: 0px 20px;
+}
+.data:last-child{
+    border-right: none;
+
+}
+.data i{
+    font-size: 16px;
+    margin-right: 7px;
+}
+
+.icons{
+    margin-right: .5px;
+    padding-right: 0%;
+}
